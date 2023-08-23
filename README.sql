@@ -1,10 +1,9 @@
-- 👋 Hi, I’m @Vayush1
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+create table Hotel
+(
+  id number primary number,
+  name varchar not null(20),
+  contact_no number,
+);
 
-<!---
-Vayush1/Vayush1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+insert into Hotel values(1,Ayush,8231893211);
+
